@@ -16,8 +16,8 @@ var options = {
 let transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'jesus@igniweb.com', // Cambialo por tu email
-        pass: '3217708483' // Cambialo por tu password
+        user: '', // Cambialo por tu email
+        pass: '' // Cambialo por tu password
     },
 });
 
