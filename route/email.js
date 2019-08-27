@@ -18,8 +18,8 @@ route.get('/formulario1', (req, res) => {
         mensaje: req.body.mensaje
     }
     const mailOptions = {
-        from: 'jesus@igniweb.com',
-        to: 'jesus@igniweb.com',
+        from: 'your@email.com',
+        to: 'your@email.com',
         subject: 'Sugerencias',
         template: 'formulario1',
         context: datos
